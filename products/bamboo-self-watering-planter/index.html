@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bamboo Self-Watering Planter | Loamwell</title>
+<style>body{font-family:Helvetica, Arial, sans-serif;margin:0;color:#1f2a24;background:#fbfaf7}header{display:flex;justify-content:space-between;align-items:center;padding:16px 32px;border-bottom:1px solid #e4e0d8}.logo{font-weight:700;font-size:22px;letter-spacing:.5px}nav a{margin-left:20px;color:#1f2a24;text-decoration:none}.banner{background:#2f4a3a;color:#fff;text-align:center;padding:8px;font-size:14px}footer{text-align:center;color:#6b7280;font-size:13px;padding:40px}
+main{max-width:1100px;margin:32px auto;display:grid;grid-template-columns:1.1fr 1fr;gap:40px;padding:0 24px}
+.gallery img{width:100%;border-radius:8px;background:#fff}
+.thumbs{display:flex;gap:12px;margin-top:12px}.thumbs img{width:31%}
+h1{font-size:34px;margin:0 0 8px}
+.price{font-size:26px;margin:8px 0 20px}
+.sizes button{border:1px solid #1f2a24;background:#fff;padding:10px 18px;margin-right:8px;border-radius:24px;cursor:pointer;font-size:15px}
+.sizes button.active{background:#1f2a24;color:#fff}
+.sku{font-size:13px;color:#6b7280;margin-top:10px}
+.cta{display:block;width:100%;margin:22px 0;padding:16px;background:#2f4a3a;color:#fff;border:0;border-radius:6px;font-size:17px;cursor:pointer}
+details{border-top:1px solid #e4e0d8;padding:14px 0}summary{cursor:pointer;font-weight:600}
+table{border-collapse:collapse;width:100%;margin-top:10px;font-size:14px}td,th{border-bottom:1px solid #eee;padding:8px;text-align:left}
+</style>
+</head>
+<body>
+<div class="banner">Free US shipping on orders over $60</div>
+<header><div class="logo">Loamwell</div><nav><a href="../../">Shop</a><a href="../../">Planters</a><a href="../../">Plant care</a></nav></header>
+<main>
+<section class="gallery">
+<img id="hero" src="../../images/bsp-medium.svg" alt="Bamboo Self-Watering Planter, medium, sage">
+<div class="thumbs">
+<img src="../../images/bsp-small.svg">
+<img src="../../images/bsp-medium.svg" alt="Bamboo Self-Watering Planter, medium">
+<img src="../../images/bsp-large.svg">
+</div>
+</section>
+<section>
+<h1>Bamboo Self-Watering Planter</h1>
+<div class="price" id="price">From $29.00</div>
+<div class="sizes">
+<button data-size="small" data-sku="LW-BSP-S" data-price="29.00">Small</button>
+<button data-size="medium" data-sku="LW-BSP-M" data-price="36.00">Medium</button>
+<button data-size="large" data-sku="LW-BSP-L" data-price="46.00">Large</button>
+</div>
+<div class="sku" id="sku">Choose a size</div>
+<button class="cta">Add to cart</button>
+<p>Our bamboo planter waters your plants for you. The hidden reservoir and cotton wick keep roots happy for up to 2 weeks between waterings, so a long weekend away is no problem.</p>
+<p>Made from renewable bamboo fiber and a plant-based resin. BPA-free and dishwasher safe (top rack).</p>
+<details><summary>Sizes and specs</summary>
+<table>
+<tr><th>Size</th><th>Diameter</th><th>Height</th><th>Weight</th></tr>
+<tr><td>Small</td><td>5.5 in (14.0 cm)</td><td>5.0 in (12.7 cm)</td><td>0.9 lb</td></tr>
+<tr><td>Medium</td><td>7.0 in (17.8 cm)</td><td>6.5 in (16.5 cm)</td><td>1.4 lb</td></tr>
+<tr><td>Large</td><td>9.5 in (24.1 cm)</td><td>8.0 in (20.3 cm)</td><td>2.1 lb</td></tr>
+</table>
+</details>
+<details><summary>What's in the box</summary><p>Outer planter, inner pot, water level indicator and wicking cord.</p></details>
+<details><summary>Shipping and returns</summary><p>Free US shipping on orders over $60. Free returns within 30 days.</p></details>
+</section>
+</main>
+<footer>&copy; 2026 Loamwell</footer>
+<script>
+const buttons = document.querySelectorAll('.sizes button');
+function pick(b) {
+  buttons.forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.getElementById('price').textContent = '$' + b.dataset.price;
+  document.getElementById('sku').textContent = 'SKU ' + b.dataset.sku;
+  document.getElementById('hero').src = '../../images/bsp-' + b.dataset.size + '.svg';
+}
+buttons.forEach(b => b.addEventListener('click', () => pick(b)));
+const q = new URLSearchParams(location.search).get('size');
+if (q) { const b = [...buttons].find(x => x.dataset.size === q); if (b) pick(b); }
+</script>
+</body>
+</html>
