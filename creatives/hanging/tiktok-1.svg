@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<rect width="1080" height="1920" fill="#dfe8da"/>
+<rect x="60" y="200" width="840" height="220" rx="28" fill="#1f2a24"/>
+<text x="100" y="290" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Hang it. Fill it.</text>
+<text x="100" y="375" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">It waters itself.</text>
+<g transform="translate(140 520) scale(0.5)"><g fill="#4f7a5a"><ellipse cx="700" cy="760" rx="70" ry="150" transform="rotate(-35 700 760)"/><ellipse cx="900" cy="760" rx="70" ry="150" transform="rotate(35 900 760)"/><ellipse cx="800" cy="720" rx="65" ry="170"/><ellipse cx="520" cy="1150" rx="34" ry="90" transform="rotate(18 520 1150)"/><ellipse cx="1080" cy="1150" rx="34" ry="90" transform="rotate(-18 1080 1150)"/></g><g stroke="#8a7356" stroke-width="10" fill="none"><line x1="800" y1="270" x2="470" y2="880"/><line x1="800" y1="270" x2="800" y2="880"/><line x1="800" y1="270" x2="1130" y2="880"/></g><circle cx="800" cy="240" r="38" fill="none" stroke="#8a7356" stroke-width="12"/><path d="M440 880 L1160 880 Q1150 1180 960 1320 Q800 1400 640 1320 Q450 1180 440 880 Z" fill="#c9b79c"/><rect x="420" y="850" width="760" height="60" rx="22" fill="#b5a284"/><rect x="1000" y="1040" width="30" height="150" rx="15" fill="#e8efe6"/><rect x="1000" y="1120" width="30" height="70" rx="15" fill="#7fb2d6"/></g>
+<rect x="60" y="1380" width="780" height="120" rx="24" fill="#ffffff"/>
+<text x="95" y="1456" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="400" fill="#1f2a24">Self-watering bamboo fiber pot</text>
+<text x="880" y="1878" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#93a08f">loamwell.com</text>
+</svg>

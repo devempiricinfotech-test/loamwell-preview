@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<rect width="1080" height="1920" fill="#f3efe6"/>
+<rect x="60" y="160" width="860" height="210" rx="28" fill="#2f4a3a"/>
+<text x="100" y="245" font-family="Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff">Up to 10 days</text>
+<text x="100" y="325" font-family="Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff">between waterings</text>
+<g transform="translate(140 470) scale(0.5)"><g fill="#4f7a5a"><ellipse cx="700" cy="760" rx="70" ry="150" transform="rotate(-35 700 760)"/><ellipse cx="900" cy="760" rx="70" ry="150" transform="rotate(35 900 760)"/><ellipse cx="800" cy="720" rx="65" ry="170"/><ellipse cx="520" cy="1150" rx="34" ry="90" transform="rotate(18 520 1150)"/><ellipse cx="1080" cy="1150" rx="34" ry="90" transform="rotate(-18 1080 1150)"/></g><g stroke="#7a6448" stroke-width="10" fill="none"><line x1="800" y1="270" x2="470" y2="880"/><line x1="800" y1="270" x2="800" y2="880"/><line x1="800" y1="270" x2="1130" y2="880"/></g><circle cx="800" cy="240" r="38" fill="none" stroke="#7a6448" stroke-width="12"/><path d="M440 880 L1160 880 Q1150 1180 960 1320 Q800 1400 640 1320 Q450 1180 440 880 Z" fill="#b8a283"/><rect x="420" y="850" width="760" height="60" rx="22" fill="#a48f70"/><rect x="1000" y="1040" width="30" height="150" rx="15" fill="#e8efe6"/><rect x="1000" y="1120" width="30" height="70" rx="15" fill="#7fb2d6"/></g>
+<rect x="60" y="1425" width="875" height="120" rx="24" fill="#2f4a3a"/>
+<text x="100" y="1502" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="400" fill="#ffffff">10% off with code HANG10</text>
+</svg>
